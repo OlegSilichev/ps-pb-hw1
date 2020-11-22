@@ -3,7 +3,6 @@ import time
 import os
 
 
-
 # Объявление переменных
 slide1 = """
                                        $$$$$$$$
@@ -81,29 +80,31 @@ print (slide2, end='\r') # вывод 2 слайда
 time.sleep (1) # выставляем задержку в 1 секунду
 os.system ('cls') # очищаем экран
 
-# Цикл 2
-print (slide1, end='\r') # вывод 1 слайда
-time.sleep (1) # выставляем задержку в 1 секунду
-os.system ('cls') # очищаем экран
+# Для следующих циклов такойже набор параметров
 
-print (slide2, end='\r') # вывод 2 слайда
-time.sleep (1) # выставляем задержку в 1 секунду
-os.system ('cls') # очищаем экран
+# Цикл 2
+print (slide1, end='\r') 
+time.sleep (1) 
+os.system ('cls') 
+
+print (slide2, end='\r') 
+time.sleep (1) 
+os.system ('cls') 
 
 # Цикл 3
-print (slide1, end='\r') # вывод 1 слайда
-time.sleep (1) # выставляем задержку в 1 секунду
-os.system ('cls') # очищаем экран
+print (slide1, end='\r') 
+time.sleep (1) 
+os.system ('cls') 
 
-print (slide2, end='\r') # вывод 2 слайда
-time.sleep (1) # выставляем задержку в 1 секунду
-os.system ('cls') # очищаем экран
+print (slide2, end='\r') 
+time.sleep (1) 
+os.system ('cls') 
 
 # Цикл 4
-print (slide1, end='\r') # вывод 1 слайда
-time.sleep (1) # выставляем задержку в 1 секунду
-os.system ('cls') # очищаем экран
+print (slide1, end='\r') 
+time.sleep (1) 
+os.system ('cls') 
 
-print (slide2, end='\r') # вывод 2 слайда
-time.sleep (1) # выставляем задержку в 1 секунду
-os.system ('cls') # очищаем экран
+print (slide2, end='\r') 
+time.sleep (1) 
+os.system ('cls')
